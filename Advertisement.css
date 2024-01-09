@@ -1,0 +1,193 @@
+/* Advertisement.css */
+.advertisement {
+    background-color: #f9f9f9;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    margin: auto;
+    max-width: 1200px;
+    position: relative;
+}
+
+.advertisementContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.textSection {
+    flex: 1;
+    padding-right: 20px;
+    text-align: left;
+    color: #333;
+}
+
+.imageSection {
+    flex: 1;
+    text-align: right;
+}
+
+.imageSection img {
+    max-width: 100%;
+    height: 500px;
+    border-radius: 5px;
+}
+
+.getStartedButton {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.getStartedButton:hover {
+    background-color: #2980b9;
+}
+
+.messageButton {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #27ae60;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.messageButton:hover {
+    background-color: #219d52;
+}
+
+/* Styles for the message modal */
+.messageModal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+}
+
+.messageContent {
+    /* Style your message content */
+}
+
+.closeButton {
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #c0392b;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.closeButton:hover {
+    background-color: #a5281b;
+}
+
+.carouselSection {
+    margin-top: 40px;
+    border: 2px solid #3498db;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.slideItem {
+    position: relative;
+    img {
+        width: 70%;
+        height: 20px;
+        object-fit: cover;
+    }
+}
+
+.slideText {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: #fff;
+    z-index: 1;
+    h3 {
+        margin-bottom: 5px;
+        font-size: 20px;
+    }
+    p {
+        font-size: 14px;
+    }
+}
+
+.contact-us {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contact-us h2 {
+    text-align: center;
+  }
+  
+  .contact-us p {
+    text-align: center;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
