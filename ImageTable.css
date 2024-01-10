@@ -1,0 +1,44 @@
+/* ImageTable.css */
+.imageTable {
+    margin-top: 20px;
+    background-color: lightblue;
+  }
+  
+  .imageTable h3 {
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .cell {
+    flex: 0 0 30%; /* Adjust cell width as needed */
+    margin: 1px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #f9f9f9; /* Change background color */
+  }
+  
+  .cell img {
+    width: 290px; /* Adjust image size */
+    height: 150px;
+    margin-bottom: 10px;
+  }
+  .cell .text-box {
+    padding: 8px;
+    margin-top: 8px;
+    background-color: #e0e0e0; /* Background color for text box */
+    border-radius: 5px;
+  }
+  .cell p {
+    font-size: 0.9em;
+    color: #555;
+  }
+  
